@@ -1,0 +1,73 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #4A4A4A;
+}
+
+
+
+
+.wrapper {
+
+	width: 320px;
+}
+
+#first {
+
+	border-bottom: 1px solid #ccc ;
+	height: 40px;
+}
+
+.share {
+	width: 40%;
+	height: 30px;
+	float: left;
+	text-align: right;
+	margin: 0;
+	line-height: 32px;
+}
+
+#rrss {
+	width: 55%;
+	height: 30px;
+	float: right;
+	text-align: left;
+	margin-left: 5%;
+}
+
+
+
+h1 {
+	width: 50%;
+	height: 30px;
+	font-family: 'Bree Serif', sans-serif;
+}
+
+.price {
+	width: 50%;
+	display: inline;
+	font-family: 'Bree Serif', sans-serif;
+	font-size: 1.4em;
+}
+
+
+
+@media screen and (min-width:768px) {
+
+.wrapper {
+
+	width: 768px;
+
+}
+
+}
+
+@media screen and (min-width:1024px) {
+
+.wrapper {
+
+	width: 1024px;
+}
+
+}
+
+
